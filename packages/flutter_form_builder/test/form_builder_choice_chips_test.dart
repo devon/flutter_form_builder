@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+
 import 'package:flutter_form_builder/flutter_form_builder.dart';
 
 import 'form_builder_tester.dart';
@@ -8,6 +9,7 @@ void main() {
   testWidgets('FormBuilderChoiceChip -- 1,3', (WidgetTester tester) async {
     const widgetName = 'cc1';
     final testWidget = FormBuilderChoiceChip<int>(
+      shouldRequestFocus: false,
       name: widgetName,
       options: const [
         FormBuilderFieldOption(key: ValueKey('1'), value: 1),
