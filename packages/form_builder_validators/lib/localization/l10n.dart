@@ -219,6 +219,7 @@ class AppLocalizationDelegate
       Locale.fromSubtags(languageCode: 'it'),
       Locale.fromSubtags(languageCode: 'ja'),
       Locale.fromSubtags(languageCode: 'ko'),
+      Locale.fromSubtags(languageCode: 'lo'),
       Locale.fromSubtags(languageCode: 'messages'),
       Locale.fromSubtags(languageCode: 'nl'),
       Locale.fromSubtags(languageCode: 'pl'),
@@ -226,6 +227,7 @@ class AppLocalizationDelegate
       Locale.fromSubtags(languageCode: 'ru'),
       Locale.fromSubtags(languageCode: 'sk'),
       Locale.fromSubtags(languageCode: 'sl'),
+      Locale.fromSubtags(languageCode: 'uk'),
       Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hans'),
       Locale.fromSubtags(languageCode: 'zh', scriptCode: 'Hant'),
     ];

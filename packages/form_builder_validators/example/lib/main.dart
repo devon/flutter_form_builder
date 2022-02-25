@@ -23,6 +23,8 @@ class MyApp extends StatelessWidget {
         Locale('es'),
         Locale('fr'),
         Locale('it'),
+        Locale('lo'),
+        Locale('uk'),
       ],
       localizationsDelegates: const [
         GlobalMaterialLocalizations.delegate,

@@ -1,3 +1,13 @@
+## [7.6.1] - 19-Feb-2022
+* Fixed duplicate `en` locale translations. Fixes #969
+
+## [7.6.0] - 18-Feb-2022
+* Added Ukrainian (uk) language support
+
+## [7.5.0] - 17-Feb-2022
+* Added Lao (lo) language support
+* Added Dutch (nl) language support
+
 ## [7.4.0] - 31-Jan-2022
 * Added Russian (ru) language support
 
