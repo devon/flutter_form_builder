@@ -12,7 +12,7 @@ ___
 [![GitHub](https://img.shields.io/github/license/danvick/flutter_form_builder?logo=open+source+initiative&style=for-the-badge)](https://github.com/danvick/flutter_form_builder/blob/master/LICENSE)
 [![OSS Lifecycle](https://img.shields.io/osslifecycle/danvick/flutter_form_builder?style=for-the-badge)](#support)
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png)](https://www.buymeacoffee.com/danvick)
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/danvick)
 ___
 
 ### Example
@@ -119,6 +119,7 @@ To allow for localization of default error messages within your app, add `FormBu
 ```
 ### Supported languages (default errorText messages)
 - Arabic (ar)
+- Catalan (ca)
 - Chinese Simplified (zh_Hans)
 - Chinese Traditional (zh_Hant)
 - English (en)
@@ -176,5 +177,5 @@ Submit your PR and be of help to millions of developers all over the world!
 If this package was helpful to you in delivering your project or you just wanna to support this
 package, a cup of coffee would be highly appreciated ;-)
 
-[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png)](https://www.buymeacoffee.com/danvick)
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg)](https://www.buymeacoffee.com/danvick)
 
