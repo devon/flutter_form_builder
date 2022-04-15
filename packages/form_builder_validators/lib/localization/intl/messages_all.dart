@@ -16,10 +16,12 @@ import 'package:intl/message_lookup_by_library.dart';
 import 'package:intl/src/intl_helpers.dart';
 
 import 'messages_ar.dart' as messages_ar;
+import 'messages_bn.dart' as messages_bn;
 import 'messages_ca.dart' as messages_ca;
 import 'messages_de.dart' as messages_de;
 import 'messages_en.dart' as messages_en;
 import 'messages_es.dart' as messages_es;
+import 'messages_et.dart' as messages_et;
 import 'messages_fa.dart' as messages_fa;
 import 'messages_fr.dart' as messages_fr;
 import 'messages_hu.dart' as messages_hu;
@@ -32,9 +34,11 @@ import 'messages_messages.dart' as messages_messages;
 import 'messages_nl.dart' as messages_nl;
 import 'messages_pl.dart' as messages_pl;
 import 'messages_pt.dart' as messages_pt;
+import 'messages_ro.dart' as messages_ro;
 import 'messages_ru.dart' as messages_ru;
 import 'messages_sk.dart' as messages_sk;
 import 'messages_sl.dart' as messages_sl;
+import 'messages_sw.dart' as messages_sw;
 import 'messages_uk.dart' as messages_uk;
 import 'messages_zh_Hans.dart' as messages_zh_hans;
 import 'messages_zh_Hant.dart' as messages_zh_hant;
@@ -42,10 +46,12 @@ import 'messages_zh_Hant.dart' as messages_zh_hant;
 typedef Future<dynamic> LibraryLoader();
 Map<String, LibraryLoader> _deferredLibraries = {
   'ar': () => new Future.value(null),
+  'bn': () => new Future.value(null),
   'ca': () => new Future.value(null),
   'de': () => new Future.value(null),
   'en': () => new Future.value(null),
   'es': () => new Future.value(null),
+  'et': () => new Future.value(null),
   'fa': () => new Future.value(null),
   'fr': () => new Future.value(null),
   'hu': () => new Future.value(null),
@@ -58,9 +64,11 @@ Map<String, LibraryLoader> _deferredLibraries = {
   'nl': () => new Future.value(null),
   'pl': () => new Future.value(null),
   'pt': () => new Future.value(null),
+  'ro': () => new Future.value(null),
   'ru': () => new Future.value(null),
   'sk': () => new Future.value(null),
   'sl': () => new Future.value(null),
+  'sw': () => new Future.value(null),
   'uk': () => new Future.value(null),
   'zh_Hans': () => new Future.value(null),
   'zh_Hant': () => new Future.value(null),
@@ -70,6 +78,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
   switch (localeName) {
     case 'ar':
       return messages_ar.messages;
+    case 'bn':
+      return messages_bn.messages;
     case 'ca':
       return messages_ca.messages;
     case 'de':
@@ -78,6 +88,8 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_en.messages;
     case 'es':
       return messages_es.messages;
+    case 'et':
+      return messages_et.messages;
     case 'fa':
       return messages_fa.messages;
     case 'fr':
@@ -102,12 +114,16 @@ MessageLookupByLibrary? _findExact(String localeName) {
       return messages_pl.messages;
     case 'pt':
       return messages_pt.messages;
+    case 'ro':
+      return messages_ro.messages;
     case 'ru':
       return messages_ru.messages;
     case 'sk':
       return messages_sk.messages;
     case 'sl':
       return messages_sl.messages;
+    case 'sw':
+      return messages_sw.messages;
     case 'uk':
       return messages_uk.messages;
     case 'zh_Hans':

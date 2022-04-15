@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a ar locale. All the
+// This is a library that provides messages for a sw locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -18,48 +18,49 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'ar';
+  String get localeName => 'sw';
 
-  static String m0(value) => "يجب أن تكون القيمة المدخلة مساوية لـ ${value}.";
+  static String m0(value) =>
+      "Thamani ya sehemu hii lazima iwe sawa na ${value}.";
 
-  static String m1(max) => "يجب أن لا تزيد القيمة المدخلة عن ${max}.";
+  static String m1(max) => "Thamani lazima iwe chini ya au sawa na ${max}";
 
   static String m2(maxLength) =>
-      "يجب أن لا يزيد طول القيمة المدخلة عن ${maxLength}.";
+      "Thamani lazima iwe na urefu chini ya au sawa na ${maxLength}";
 
-  static String m3(min) => "يجب أن لا تقل القيمة المدخلة عن ${min}.";
+  static String m3(min) => "Thamani lazima iwe kubwa kuliko au sawa na ${min}.";
 
   static String m4(minLength) =>
-      "يجب أن لا يقل طول القيمة المدخلة عن ${minLength}.";
+      "Thamani lazima iwe na urefu mkubwa kuliko au sawa na ${minLength}.";
 
   static String m5(value) =>
-      "يجب أن لا تكون القيمة المدخلة مساوية لـ ${value}.";
+      "Thamani hii ya sehemu haifai kuwa sawa na ${value}.";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "creditCardErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تصلح كرقم بطاقة إئتمانية."),
+            "Sehemu hii inahitaji nambari halali ya kadi ya mkopo."),
         "dateStringErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب تاريخا صالحا."),
+            "Sehemu hii inahitaji mfuatano halali wa tarehe."),
         "emailErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان بريد إلكتروني صالح."),
+            "Sehemu hii inahitaji barua pepe halali."),
         "equalErrorText": m0,
         "integerErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة ليست رقما صحيحا."),
+            "Sehemu hii inahitaji nambari kamili halali."),
         "ipErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان IP صالح."),
+            "Sehemu hii inahitaji IP halali."),
         "matchErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تطابق الصيغة المطلوبة."),
+            "Thamani hailingani na muundo."),
         "maxErrorText": m1,
         "maxLengthErrorText": m2,
         "minErrorText": m3,
         "minLengthErrorText": m4,
         "notEqualErrorText": m5,
         "numericErrorText":
-            MessageLookupByLibrary.simpleMessage("القيمة المدخلة ليست رقما."),
-        "requiredErrorText":
-            MessageLookupByLibrary.simpleMessage("هذا الحقل يجب ملؤه."),
+            MessageLookupByLibrary.simpleMessage("Thamani lazima iwe nambari."),
+        "requiredErrorText": MessageLookupByLibrary.simpleMessage(
+            "Sehemu hii haiwezi kuwa tupu."),
         "urlErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان URL صالح.")
+            "Sehemu hii inahitaji anwani sahihi ya tovuti.")
       };
 }

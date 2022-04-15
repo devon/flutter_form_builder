@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a ar locale. All the
+// This is a library that provides messages for a et locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -18,48 +18,46 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'ar';
+  String get localeName => 'et';
 
-  static String m0(value) => "يجب أن تكون القيمة المدخلة مساوية لـ ${value}.";
+  static String m0(value) => "See väärtus peab olema ${value}.";
 
-  static String m1(max) => "يجب أن لا تزيد القيمة المدخلة عن ${max}.";
+  static String m1(max) => "Väärtus ei tohi olla üle ${max}";
 
-  static String m2(maxLength) =>
-      "يجب أن لا يزيد طول القيمة المدخلة عن ${maxLength}.";
+  static String m2(maxLength) => "Sisendi pikkus ei tohi olla üle ${maxLength}";
 
-  static String m3(min) => "يجب أن لا تقل القيمة المدخلة عن ${min}.";
+  static String m3(min) => "Väärtus peab olema vähemalt ${min}.";
 
   static String m4(minLength) =>
-      "يجب أن لا يقل طول القيمة المدخلة عن ${minLength}.";
+      "Sisendi pikkus peab olema vähemalt ${minLength}";
 
-  static String m5(value) =>
-      "يجب أن لا تكون القيمة المدخلة مساوية لـ ${value}.";
+  static String m5(value) => "See väärtus ei tohi olla ${value}.";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "creditCardErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تصلح كرقم بطاقة إئتمانية."),
+            "Sellele väljale tuleb sisestada korrektne krediitkaardi number."),
         "dateStringErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب تاريخا صالحا."),
+            "Sellele väljale tuleb sisestada korrektne kuupäev."),
         "emailErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان بريد إلكتروني صالح."),
+            "Sellele väljale tuleb sisestada korrektne meiliaadress."),
         "equalErrorText": m0,
-        "integerErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة ليست رقما صحيحا."),
+        "integerErrorText":
+            MessageLookupByLibrary.simpleMessage("Sisend peab olema täisarv."),
         "ipErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان IP صالح."),
-        "matchErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تطابق الصيغة المطلوبة."),
+            "Sellele väljale tuleb sisestada korrektne IP-aadress."),
+        "matchErrorText":
+            MessageLookupByLibrary.simpleMessage("Sisend ei vasta mustrile."),
         "maxErrorText": m1,
         "maxLengthErrorText": m2,
         "minErrorText": m3,
         "minLengthErrorText": m4,
         "notEqualErrorText": m5,
         "numericErrorText":
-            MessageLookupByLibrary.simpleMessage("القيمة المدخلة ليست رقما."),
+            MessageLookupByLibrary.simpleMessage("Sisend peab olema arv."),
         "requiredErrorText":
-            MessageLookupByLibrary.simpleMessage("هذا الحقل يجب ملؤه."),
+            MessageLookupByLibrary.simpleMessage("See väli ei tohi olla tühi."),
         "urlErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان URL صالح.")
+            "Sellele väljale tuleb sisestada korrektne URL.")
       };
 }

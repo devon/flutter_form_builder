@@ -1,5 +1,5 @@
 // DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
-// This is a library that provides messages for a ar locale. All the
+// This is a library that provides messages for a ro locale. All the
 // messages from the main program should be duplicated here with the same
 // function name.
 
@@ -18,48 +18,51 @@ final messages = new MessageLookup();
 typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 
 class MessageLookup extends MessageLookupByLibrary {
-  String get localeName => 'ar';
+  String get localeName => 'ro';
 
-  static String m0(value) => "يجب أن تكون القيمة المدخلة مساوية لـ ${value}.";
+  static String m0(value) =>
+      "Valoarea câmpului trebuie să fie egală cu ${value}.";
 
-  static String m1(max) => "يجب أن لا تزيد القيمة المدخلة عن ${max}.";
+  static String m1(max) =>
+      "Valoarea trebuie să fie mai mică sau egală cu ${max}";
 
   static String m2(maxLength) =>
-      "يجب أن لا يزيد طول القيمة المدخلة عن ${maxLength}.";
+      "Valoarea trebuie să aibă o lungime mai mică sau egală cu ${maxLength}";
 
-  static String m3(min) => "يجب أن لا تقل القيمة المدخلة عن ${min}.";
+  static String m3(min) =>
+      "Valoarea trebuie să fie mai mare sau egală cu ${min}.";
 
   static String m4(minLength) =>
-      "يجب أن لا يقل طول القيمة المدخلة عن ${minLength}.";
+      "Valoarea trebuie să aibă o lungime mai mare sau egală cu ${minLength}";
 
   static String m5(value) =>
-      "يجب أن لا تكون القيمة المدخلة مساوية لـ ${value}.";
+      "Valoarea câmpului nu trebuie să fie egală cu ${value}.";
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "creditCardErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تصلح كرقم بطاقة إئتمانية."),
+            "Acest câmp necesită un număr valid de card de credit."),
         "dateStringErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب تاريخا صالحا."),
+            "Acest câmp necesită un șir de date valid."),
         "emailErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان بريد إلكتروني صالح."),
+            "Acest câmp necesită o adresă de e-mail validă."),
         "equalErrorText": m0,
         "integerErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة ليست رقما صحيحا."),
+            "Acest câmp necesită un număr întreg valid."),
         "ipErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان IP صالح."),
+            "Acest câmp necesită un IP valid."),
         "matchErrorText": MessageLookupByLibrary.simpleMessage(
-            "القيمة المدخلة لا تطابق الصيغة المطلوبة."),
+            "Valoarea nu se potrivește cu modelul."),
         "maxErrorText": m1,
         "maxLengthErrorText": m2,
         "minErrorText": m3,
         "minLengthErrorText": m4,
         "notEqualErrorText": m5,
-        "numericErrorText":
-            MessageLookupByLibrary.simpleMessage("القيمة المدخلة ليست رقما."),
+        "numericErrorText": MessageLookupByLibrary.simpleMessage(
+            "Valoarea trebuie să fie numerică."),
         "requiredErrorText":
-            MessageLookupByLibrary.simpleMessage("هذا الحقل يجب ملؤه."),
+            MessageLookupByLibrary.simpleMessage("Acest câmp nu poate fi gol."),
         "urlErrorText": MessageLookupByLibrary.simpleMessage(
-            "هذا الحقل يتطلب عنوان URL صالح.")
+            "Acest câmp necesită o adresă URL validă.")
       };
 }
